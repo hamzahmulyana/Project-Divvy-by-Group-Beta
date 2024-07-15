@@ -44,7 +44,7 @@ combined_df.head()
 
 ## Collaboration
 This project was completed by our team. We welcome collaboration opportunities. Please feel free to contact us for further information.
-1. [Aditya Wahyu](https://github.com/AdityaIKO)
+1. [Aditya Wahyu Wijanarko](https://github.com/AdityaIKO)
 2. [Chandra Driastama](https://github.com/chandra879012)
 3. [Hamzah Mulyana](https://github.com/hamzahmulyana)
 4. [Galuh Anjarweni](https://github.com/Anjarwenig)
