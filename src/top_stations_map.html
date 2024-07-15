@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1eb570da25f18d00fb5ecc2153cd720c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1eb570da25f18d00fb5ecc2153cd720c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1eb570da25f18d00fb5ecc2153cd720c = L.map(
+                "map_1eb570da25f18d00fb5ecc2153cd720c",
+                {
+                    center: [41.829068691326, -87.61321032946],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a5e2d08083020c30234f0c6b289c9e58 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a5e2d08083020c30234f0c6b289c9e58.addTo(map_1eb570da25f18d00fb5ecc2153cd720c);
+        
+    
+            var marker_088d7b392a901d5db77a30c8efc6425a = L.marker(
+                [41.892278, -87.612043],
+                {}
+            ).addTo(map_1eb570da25f18d00fb5ecc2153cd720c);
+        
+    
+            var icon_ee026974852a77a41c184789fc7d476d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_088d7b392a901d5db77a30c8efc6425a.setIcon(icon_ee026974852a77a41c184789fc7d476d);
+        
+    
+        var popup_fbb525d478869e7abccbada906231970 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83df9e83a4139643836376a9bd9439fe = $(`<div id="html_83df9e83a4139643836376a9bd9439fe" style="width: 100.0%; height: 100.0%;">Streeter Dr & Grand Ave<br>Postal Code: 60611</div>`)[0];
+                popup_fbb525d478869e7abccbada906231970.setContent(html_83df9e83a4139643836376a9bd9439fe);
+            
+        
+
+        marker_088d7b392a901d5db77a30c8efc6425a.bindPopup(popup_fbb525d478869e7abccbada906231970)
+        ;
+
+        
+    
+    
+            var marker_f9aa3fa26d073d1f5d3289713e7b2a69 = L.marker(
+                [41.880958, -87.616743],
+                {}
+            ).addTo(map_1eb570da25f18d00fb5ecc2153cd720c);
+        
+    
+            var icon_ed1d23ebda48859449e9f77ec77e1a2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f9aa3fa26d073d1f5d3289713e7b2a69.setIcon(icon_ed1d23ebda48859449e9f77ec77e1a2f);
+        
+    
+        var popup_c44c3682eff8fbf2e51a6f0649485b5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86ff2520b149f872cebdd1856fdd3c3b = $(`<div id="html_86ff2520b149f872cebdd1856fdd3c3b" style="width: 100.0%; height: 100.0%;">DuSable Lake Shore Dr & Monroe St<br>Postal Code: 60603</div>`)[0];
+                popup_c44c3682eff8fbf2e51a6f0649485b5a.setContent(html_86ff2520b149f872cebdd1856fdd3c3b);
+            
+        
+
+        marker_f9aa3fa26d073d1f5d3289713e7b2a69.bindPopup(popup_c44c3682eff8fbf2e51a6f0649485b5a)
+        ;
+
+        
+    
+    
+            var marker_c13b3767590dcf58caaa041be659186c = L.marker(
+                [41.89, -87.65],
+                {}
+            ).addTo(map_1eb570da25f18d00fb5ecc2153cd720c);
+        
+    
+            var icon_5ce01d13a86f7c8a9c84ee65431ef0d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c13b3767590dcf58caaa041be659186c.setIcon(icon_5ce01d13a86f7c8a9c84ee65431ef0d5);
+        
+    
+        var popup_390473bb827bd98df06d8c62d1eb027d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4c23adb03855de518ad95254e92a98b = $(`<div id="html_a4c23adb03855de518ad95254e92a98b" style="width: 100.0%; height: 100.0%;">Halsted St & Fulton St<br>Postal Code: 60607</div>`)[0];
+                popup_390473bb827bd98df06d8c62d1eb027d.setContent(html_a4c23adb03855de518ad95254e92a98b);
+            
+        
+
+        marker_c13b3767590dcf58caaa041be659186c.bindPopup(popup_390473bb827bd98df06d8c62d1eb027d)
+        ;
+
+        
+    
+    
+            var marker_9c4c938a8e63168d69150a8d6baf3d66 = L.marker(
+                [41.78509714636, -87.6010727606],
+                {}
+            ).addTo(map_1eb570da25f18d00fb5ecc2153cd720c);
+        
+    
+            var icon_9d992b4d5caa0584bcc96e3064154e2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9c4c938a8e63168d69150a8d6baf3d66.setIcon(icon_9d992b4d5caa0584bcc96e3064154e2d);
+        
+    
+        var popup_156a4f83ea1e75d706608d77299c955e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65498b36522871794ba142e4f73b5c7e = $(`<div id="html_65498b36522871794ba142e4f73b5c7e" style="width: 100.0%; height: 100.0%;">Ellis Ave & 60th St<br>Postal Code: 60637</div>`)[0];
+                popup_156a4f83ea1e75d706608d77299c955e.setContent(html_65498b36522871794ba142e4f73b5c7e);
+            
+        
+
+        marker_9c4c938a8e63168d69150a8d6baf3d66.bindPopup(popup_156a4f83ea1e75d706608d77299c955e)
+        ;
+
+        
+    
+    
+            var marker_a8d84f6ff4fadceb77f75b962f4a7eb2 = L.marker(
+                [41.791478, -87.599861],
+                {}
+            ).addTo(map_1eb570da25f18d00fb5ecc2153cd720c);
+        
+    
+            var icon_ba2c27770ab07bda4997adf07d1e1402 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a8d84f6ff4fadceb77f75b962f4a7eb2.setIcon(icon_ba2c27770ab07bda4997adf07d1e1402);
+        
+    
+        var popup_14494c0358b979d1ccd0083536dd6a20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50f474838963d4079ef7d0bc570d6035 = $(`<div id="html_50f474838963d4079ef7d0bc570d6035" style="width: 100.0%; height: 100.0%;">University Ave & 57th St<br>Postal Code: 60637</div>`)[0];
+                popup_14494c0358b979d1ccd0083536dd6a20.setContent(html_50f474838963d4079ef7d0bc570d6035);
+            
+        
+
+        marker_a8d84f6ff4fadceb77f75b962f4a7eb2.bindPopup(popup_14494c0358b979d1ccd0083536dd6a20)
+        ;
+
+        
+    
+    
+            var marker_0770a3a869002763a1b0a72b534f1588 = L.marker(
+                [41.78509714636, -87.6010727606],
+                {}
+            ).addTo(map_1eb570da25f18d00fb5ecc2153cd720c);
+        
+    
+            var icon_7fd96451fadc7e5ed7961f55916a7469 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0770a3a869002763a1b0a72b534f1588.setIcon(icon_7fd96451fadc7e5ed7961f55916a7469);
+        
+    
+        var popup_528afabd8b886e2ae855705b933d239c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4cdc2938c2402f1ad938549fc353b87d = $(`<div id="html_4cdc2938c2402f1ad938549fc353b87d" style="width: 100.0%; height: 100.0%;">Ellis Ave & 60th St<br>Postal Code: 60637</div>`)[0];
+                popup_528afabd8b886e2ae855705b933d239c.setContent(html_4cdc2938c2402f1ad938549fc353b87d);
+            
+        
+
+        marker_0770a3a869002763a1b0a72b534f1588.bindPopup(popup_528afabd8b886e2ae855705b933d239c)
+        ;
+
+        
+    
+    
+            var marker_c4e5164c900efad23ce0d3b54dde532b = L.marker(
+                [41.791478, -87.599861],
+                {}
+            ).addTo(map_1eb570da25f18d00fb5ecc2153cd720c);
+        
+    
+            var icon_f92d28c47b2f564b4ed4a53d7cffbd6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c4e5164c900efad23ce0d3b54dde532b.setIcon(icon_f92d28c47b2f564b4ed4a53d7cffbd6b);
+        
+    
+        var popup_5e3a319fe9093d405e2babb79beb745d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b960b4fc131883695d10ecae60ec1fe8 = $(`<div id="html_b960b4fc131883695d10ecae60ec1fe8" style="width: 100.0%; height: 100.0%;">University Ave & 57th St<br>Postal Code: 60637</div>`)[0];
+                popup_5e3a319fe9093d405e2babb79beb745d.setContent(html_b960b4fc131883695d10ecae60ec1fe8);
+            
+        
+
+        marker_c4e5164c900efad23ce0d3b54dde532b.bindPopup(popup_5e3a319fe9093d405e2babb79beb745d)
+        ;
+
+        
+    
+    
+            var marker_3cedf7064c0473e7a0b2bfcbf316e5e0 = L.marker(
+                [41.89, -87.65],
+                {}
+            ).addTo(map_1eb570da25f18d00fb5ecc2153cd720c);
+        
+    
+            var icon_17388ebe68ddd005af0ef6be8115ac42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3cedf7064c0473e7a0b2bfcbf316e5e0.setIcon(icon_17388ebe68ddd005af0ef6be8115ac42);
+        
+    
+        var popup_f4b4655347f3d2872381b2fe5848c2af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb1a7ebeb3af9952c9106b442db56f5e = $(`<div id="html_bb1a7ebeb3af9952c9106b442db56f5e" style="width: 100.0%; height: 100.0%;">Halsted St & Fulton St<br>Postal Code: 60607</div>`)[0];
+                popup_f4b4655347f3d2872381b2fe5848c2af.setContent(html_bb1a7ebeb3af9952c9106b442db56f5e);
+            
+        
+
+        marker_3cedf7064c0473e7a0b2bfcbf316e5e0.bindPopup(popup_f4b4655347f3d2872381b2fe5848c2af)
+        ;
+
+        
+    
+    
+            var marker_f6018e205de7cd9f98f72ccf1939161f = L.marker(
+                [41.79430062054, -87.6014497734],
+                {}
+            ).addTo(map_1eb570da25f18d00fb5ecc2153cd720c);
+        
+    
+            var icon_f86349575267cae064573fee2a99e242 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f6018e205de7cd9f98f72ccf1939161f.setIcon(icon_f86349575267cae064573fee2a99e242);
+        
+    
+        var popup_4c0435ce8ba2e41b9d87c9d56e345134 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87b81116376537cb55d3a6cf062c1f0b = $(`<div id="html_87b81116376537cb55d3a6cf062c1f0b" style="width: 100.0%; height: 100.0%;">Ellis Ave & 55th St<br>Postal Code: 60637</div>`)[0];
+                popup_4c0435ce8ba2e41b9d87c9d56e345134.setContent(html_87b81116376537cb55d3a6cf062c1f0b);
+            
+        
+
+        marker_f6018e205de7cd9f98f72ccf1939161f.bindPopup(popup_4c0435ce8ba2e41b9d87c9d56e345134)
+        ;
+
+        
+    
+    
+            var marker_1dacec04784eed80b18e0034f9ce34de = L.marker(
+                [41.79, -87.6],
+                {}
+            ).addTo(map_1eb570da25f18d00fb5ecc2153cd720c);
+        
+    
+            var icon_62f1e144021b2d5edd9b881b25fab1b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1dacec04784eed80b18e0034f9ce34de.setIcon(icon_62f1e144021b2d5edd9b881b25fab1b1);
+        
+    
+        var popup_9f8673ef8a4838fe09454abbd0142d92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebc250276a1c5d73a102b3b9b6b205cc = $(`<div id="html_ebc250276a1c5d73a102b3b9b6b205cc" style="width: 100.0%; height: 100.0%;">Public Rack - Throop St & 58th St<br>Postal Code: 60637</div>`)[0];
+                popup_9f8673ef8a4838fe09454abbd0142d92.setContent(html_ebc250276a1c5d73a102b3b9b6b205cc);
+            
+        
+
+        marker_1dacec04784eed80b18e0034f9ce34de.bindPopup(popup_9f8673ef8a4838fe09454abbd0142d92)
+        ;
+
+        
+    
+</script>
+</html>
